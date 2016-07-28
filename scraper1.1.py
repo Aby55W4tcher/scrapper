@@ -3,6 +3,7 @@ import urllib2
 import requests
 import re
 import urlparse
+from bs4 import BeautifulSoup as bs
 
 #lists of pdf pages per site
 list_Of_UNOCHA = ['http://www.unocha.org' , 'http://www.unocha.org/about-us/strategic-plan', 'http://www.unocha.org/about-us/publications', 'http://www.unocha.org/about-us/publications/humanitarian-reports', 'http://www.reliefweb.int/updates?sl=environment-report_listing%252Ctaxonomy_index_tid_source-1503%252Ctaxonomy_index_tid_content_format-8']
